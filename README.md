@@ -61,7 +61,13 @@ Although your friend has an excellent understanding of property prices in her ow
 
 
 ## ML Business Case
-* In the previous bullet, you potentially visualised an ML task to answer a business requirement. You should frame the business case using the method we covered in the course.
+### Predict Sale Price
+* We want to create a ML model to predict the sale price of a house based on historical values.
+* The target variable (sale price) is a continuous numerical variable; therefore, we consider a regression model first and foremost.
+* The model will provide value to the client by giving insight into current property holdings, as well as future investments.
+* Input data will be provided by the client, either on the fly or in batches collated in .csv files. Initially the client will want to predict the sale price of their 4 inherited properties, but more predictions may be made as the client considers more investment opportunities.
+* The model's success metric has been defined as:
+    * An R2 score of 0.75 on train and test sets.
 
 
 ## Dashboard Design
