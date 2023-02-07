@@ -71,8 +71,34 @@ Although your friend has an excellent understanding of property prices in her ow
 
 
 ## Dashboard Design
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items that your dashboard library supports.
-* Eventually, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but eventually you needed to use another plot type)
+### Page 1: Project Summary
+* Overview of project details, terms, jargon etc
+* Description of the dataset
+* Business requirements
+
+### Page 2: Data Analysis
+* Reiterate business requirement 1
+* Display shape of dataset (no. rows and columns) and first 10 entries.
+* Display correlation plots between features and target
+* Describe most correlated features and plot against target
+    * This could be done with scatter plots, line plots, etc
+* All features should be toggleable with a checkbox or similar
+
+### Page 3: Predict Sale Price
+* Reiterate business requiment 2
+* Displays the details of each inherited property and their predicted sale price
+* Display the summed total of sale prices for the properties
+* Inputs allowing user to enter house details manually, or upload a csv containing multiple records
+* 'Run Analysis' button that feeds data into the ML pipeline and displays the prediction of sale price for each
+
+### Page 4: Project Hypotheses & Validation
+* Display all hypotheses, conclusions, and validation methods
+
+### Page 5: Regressor Model Analysis
+* Present all steps in the ML pipeline
+* Considerations after pipeline is trained
+* Discuss feature importances
+* Analyse pipeline performance and discuss limitations
 
 
 
