@@ -52,7 +52,12 @@ Although your friend has an excellent understanding of property prices in her ow
 
 
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
-* List your business requirements and a rationale to map them to the Data Visualisations and ML tasks.
+* Business requirement 1: Data Visualisation and Correlation Study
+    * We will explore the housing data.
+    * We will conduct correlation (Pearson & Spearman) studies and predictive power studies to understand how each feature relates to the target (sale price).
+    * We will plot all relevant features against the target.
+* Business requirement 2: Regression Pipeline
+    * We will build a regressor model to predict house sale price based on relevant features.
 
 
 ## ML Business Case
